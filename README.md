@@ -12,7 +12,8 @@ This repo is functionality complete — PRs and issues welcome!
 
 Setting up for local usage:
 
-- Clone this repo
+- Fork this repo and clone the fork
+- Create a file named `.env` file in the root directory, we'll fill this in later
 - `yarn` to install all required dependencies
 - Run `brew install mongodb` 
 - After installing mongodb, run `sudo mkdir -p /data/db`

@@ -6,7 +6,7 @@ Setting up for local usage:
 
 - Fork this repo 
 - Clone the fork
-- Create a file named `.env` file in the root directory. Copy and paste the following. We'll fit in later:
+- Create a file named `.env` in the root directory. Copy and paste the following. We'll fit in later:
 
 ```
 COOKIE_SECRET=''

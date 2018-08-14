@@ -20,9 +20,6 @@ S3_BUCKET=''
 ```
 
 - `yarn` to install all required dependencies
-- Run `brew install mongodb` 
-- After installing mongodb, run `sudo mkdir -p /data/db`
-- Make it accessible to root user `sudo chmod -R go+w /data/db`
 
 # Running
 - Make sure mongo is running with the `mongod` command

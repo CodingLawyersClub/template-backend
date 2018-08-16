@@ -210,7 +210,7 @@ router.post('/users', async (req, res, next) => {
   
     const userToReturn = await user.save();
 
-    await user.sendEmailVerification();
+    user.sendEmailVerification();
 
     return res.json({user: userToReturn.toAuthJSON()});
   
